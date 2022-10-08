@@ -179,6 +179,10 @@ span {
   /* border: 1px solid #fff; */
   margin: 30px 0 50px 0;
 }
+.project p {
+  color: #fff;
+  text-align: center;
+}
 
 .project .portafolio {
   /* border: 1px solid #ccc; */
@@ -230,24 +234,6 @@ span {
 
 .proyect_link i {
   font-size: 1.5em;
-}
-
-.btn-container {
-  /* border: 1px solid #fff; */
-  display: flex;
-  place-content: center;
-  margin-top: 1.3rem;
-}
-
-.card .project-detail {
-  margin: 0 auto;
-  margin: 1em;
-  width: 70%;
-}
-
-.card .project-detail a {
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 /* CONTACT */
@@ -304,7 +290,7 @@ span {
 }
 
 .btn-submit {
-  padding: 0.625rem 1.25rem;
+  padding: 0.725rem 1.25rem;
   margin: 1em;
   border: none;
   text-transform: uppercase;
@@ -312,6 +298,7 @@ span {
   background-color: orange;
   border-radius: 0.9375rem;
   margin-bottom: 2.25rem;
+  color: #fff;
 }
 
 .btn-submit:hover {
@@ -334,8 +321,11 @@ span {
 }
 
 .sotial i {
-  font-size: 1.5em;
+  font-size: 2em;
   cursor: pointer;
+}
+.sotial i:hover {
+  color: #fff;
 }
 .sotial {
   display: flex;
@@ -346,9 +336,25 @@ span {
 
 /* SKILLS */
 
+.skill {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 60px;
+}
+
+.skill h2 {
+  color: #fff;
+  font-size: 2em;
+  border: 1px solid orange;
+  padding: 7px;
+}
+
 .container-skill {
   /* border: 1px solid #ccc; */
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container-skill a {
@@ -364,8 +370,8 @@ span {
   flex-direction: row;
 } */
 #Tecnologies {
-  /* border: 1px solid orange; */
-  width: 20%;
+  border: 1px solid orange;
+  width: 70%;
   margin-top: 1rem;
 }
 .center-tecno {
@@ -373,6 +379,9 @@ span {
   justify-content: center;
 }
 
+.tecnologies-tool {
+  margin: 60px;
+}
 .lenguajes {
   /* border: 1px solid #ccc; */
   height: 20rem;
@@ -388,10 +397,17 @@ span {
   cursor: pointer;
 }
 
+.lenguajes iconify-icon:hover {
+  background-color: orange;
+  border-radius: 1.5125rem;
+  transition: 0.5s;
+  /* transform: translateX(10px) rotate(360deg) translateY(5px); */
+}
+
 #Tools {
-  /* border: 1px solid orange; */
-  width: 20%;
-  margin-top: 50px;
+  border: 1px solid orange;
+  width: 25%;
+  margin-top: 15px;
 }
 .tools {
   /* border: 1px solid #ccc; */
@@ -407,8 +423,22 @@ span {
   padding: 10px;
   cursor: pointer;
 }
+.tools iconify-icon:hover {
+  background-color: orange;
+  border-radius: 1.5125rem;
+  transition: 0.5s;
+  /* transform: translateX(10px) rotate(360deg) translateY(5px); */
+}
 
 .center-h2 {
   display: flex;
   justify-content: center;
+}
+
+/* BORDER RA */
+
+.bor {
+  border-radius: 0.75rem;
+  box-shadow: rgba(248, 134, 3, 0.966) 5px 5px,
+    rgba(247, 169, 2, 0.767) 10px 10px;
 }
