@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./icon/logo.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css"
     />
   </head>
   <body>
@@ -24,13 +25,14 @@
           <ul class="menu">
             <li><a class="active" href="#Home">Home</a></li>
             <li><a href="#AboutMe">About Me</a></li>
-            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Tecnologies">Tecnologies</a></li>
             <li><a href="#Project">Projects</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
           <div class="idiomas">
             <img src="./icon/es.svg" alt="español" />
             <img src="./icon/us.svg" alt="ingles" />
+
             <!-- <iconify-icon
               class="icon"
               icon="vscode-icons:file-type-typescript-official"
@@ -57,32 +59,129 @@
     </div>
 
     <!-- ABOUT ME -->
-    <div class="about">
-      <div class="about-info">
-        <h2 id="AboutMe">About Me</h2>
-        <div class="info"></div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
-          similique, obcaecati adipisci omnis culpa nisi cupiditate repudiandae
-          a illo, sunt doloribus voluptatem natus consequatur dolorum rem.
-          Beatae, eum possimus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
-          similique, obcaecati adipisci omnis culpa nisi cupiditate repudiandae
-          a illo, sunt doloribus voluptatem natus consequatur dolorum rem.
-          Beatae, eum possimus.
-        </p>
-        <button class="btn">Read More</button>
+    <div class="about-container">
+      <div class="about">
+        <div class="about-info">
+          <div class="center-about">
+            <h2 id="AboutMe">About Me</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
+            similique, obcaecati adipisci omnis culpa nisi cupiditate
+            repudiandae a illo, sunt doloribus voluptatem natus consequatur
+            dolorum rem. Beatae, eum possimus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
+            similique, obcaecati adipisci omnis culpa nisi cupiditate
+            repudiandae a illo, sunt doloribus voluptatem natus consequatur
+            dolorum rem. Beatae, eum possimus.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <div class="container-skill">
+      <div class="center-tecno">
+        <h2 id="Tecnologies" style="color: #fff; font-size: 2em">
+          <a href="">Tecnologies</a>
+        </h2>
+      </div>
+
+      <div class="lenguajes">
+        <!-- ICON -->
+        <iconify-icon
+          icon="logos:javascript"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="vscode-icons:file-type-typescript-official"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="vscode-icons:file-type-node"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon icon="logos:php" width="80" height="80"></iconify-icon>
+        <iconify-icon
+          style="color: #fff"
+          icon="simple-icons:express"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon icon="logos:react" width="80" height="80"></iconify-icon>
+        <iconify-icon icon="logos:redux" width="80" height="80"></iconify-icon>
+        <iconify-icon
+          icon="logos:sequelize"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="logos:postgresql"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="vscode-icons:file-type-html"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="vscode-icons:file-type-css"
+          width="80"
+          height="80"
+        ></iconify-icon>
+      </div>
+
+      <div class="center-h2">
+        <h2 id="Tools" style="color: #fff; font-size: 2em">Tools</h2>
+      </div>
+
+      <div class="tools">
+        <iconify-icon
+          icon="bi:git"
+          style="color: red"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="foundation:social-github"
+          style="color: #9747ff"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon
+          icon="logos:postman-icon"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon icon="logos:figma" width="80" height="80"></iconify-icon>
+        <iconify-icon
+          icon="logos:visual-studio-code"
+          width="80"
+          height="80"
+        ></iconify-icon>
+        <iconify-icon icon="logos:xampp" width="80" height="80"></iconify-icon>
+        <iconify-icon
+          icon="logos:bootstrap"
+          width="80"
+          height="80"
+        ></iconify-icon>
       </div>
     </div>
 
     <!-- PROJECTS -->
 
     <div class="project">
-      <div class="portafolio">
-        <h2 id="Project" style="color: #fff; font-size: 2em">Projects</h2>
-        <div class="info"></div>
+      <div class="container-project">
+        <div class="portafolio">
+          <h2 id="Project" style="color: #fff; font-size: 2em">Projects</h2>
+        </div>
       </div>
 
       <div class="container">
@@ -183,7 +282,6 @@
     <div class="contact-section">
       <div class="contact">
         <h2 id="Contact" style="color: #fff; font-size: 2em">Contact Me</h2>
-        <div class="info"></div>
       </div>
 
       <div class="container-cotact">

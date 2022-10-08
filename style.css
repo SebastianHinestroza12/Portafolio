@@ -128,45 +128,67 @@ span {
 
 /* ABOUT ME */
 
+.about-container {
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.125rem;
+}
+
 .about {
   display: flex;
   width: 60vw;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 30px 0 30px 0;
+  /* border: 1px solid #ccc; */
+}
+
+.center-about {
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
 }
 
 .about-info {
-  padding: 3em;
-  margin-left: -48px;
+  padding: 5em;
 }
 .about-info h2 {
   font-size: 2em;
   color: #fff;
+  border: 1px solid orange;
+  text-align: center;
+  width: 36%;
 }
 .about-info p {
+  margin-top: 1.45rem;
   color: #fff;
   margin-bottom: 1em;
+  text-align: center;
 }
 
-.info {
-  height: 4px;
-  width: 60px;
-  margin-top: 0.4rem;
-  margin-bottom: 2em;
-  background: linear-gradient(yellow, red);
-}
 /* PROYECT */
+#Project {
+  border: 1px solid orange;
+  text-align: center;
+}
 
 .project {
   width: 100vw;
   padding: 5em;
+  /* border: 1px solid #fff; */
+  margin: 30px 0 50px 0;
 }
 
 .project .portafolio {
   /* border: 1px solid #ccc; */
-  width: 50%;
-  margin-left: 11.5rem;
+  width: 20%;
+}
+.container-project {
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .project .container {
@@ -230,9 +252,17 @@ span {
 
 /* CONTACT */
 
-.contact-section .contact {
-  width: 50%;
-  margin-left: 16.5rem;
+#Contact {
+  border: 1px solid orange;
+  text-align: center;
+  width: 20%;
+}
+.contact {
+  /* border: 1px solid #eee; */
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-contact {
@@ -312,4 +342,73 @@ span {
   justify-content: space-around;
   width: 18.75rem;
   margin-top: 1em;
+}
+
+/* SKILLS */
+
+.container-skill {
+  /* border: 1px solid #ccc; */
+  text-align: center;
+}
+
+.container-skill a {
+  text-decoration: none;
+  color: #fff;
+}
+/* .lenguajes {
+  border: 1px solid #ccc;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} */
+#Tecnologies {
+  /* border: 1px solid orange; */
+  width: 20%;
+  margin-top: 1rem;
+}
+.center-tecno {
+  display: flex;
+  justify-content: center;
+}
+
+.lenguajes {
+  /* border: 1px solid #ccc; */
+  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 30px auto;
+}
+
+.lenguajes iconify-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#Tools {
+  /* border: 1px solid orange; */
+  width: 20%;
+  margin-top: 50px;
+}
+.tools {
+  /* border: 1px solid #ccc; */
+  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 30px auto;
+}
+
+.tools iconify-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.center-h2 {
+  display: flex;
+  justify-content: center;
 }
