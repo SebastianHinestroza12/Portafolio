@@ -14,45 +14,46 @@
   </head>
   <body>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    
 
     <!-- NABVAR -->
     <div class="wrapper">
       <header>
         <nav class="navbar">
           <div class="brand">
-            <h2>S<span>M</span></h2>
+            <h2> <span><</span> S<span>M</span> <span>/></span> </h2>
           </div>
           <ul class="menu">
-            <li><a class="active" href="#Home">Home</a></li>
-            <li><a href="#AboutMe">About Me</a></li>
-            <li><a href="#Skill">Skills</a></li>
-            <li><a href="#Project">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li ><a data-section="navegacion" data-value="home" class="active" href="#Home">Home</a></li>
+            <li><a data-section="navegacion" data-value="about" href="#AboutMe">About Me</a></li>
+            <li><a data-section="navegacion" data-value="skill" href="#Skill">Skills</a></li>
+            <li><a data-section="navegacion" data-value="project" href="#Project">Projects</a></li>
+            <li><a data-section="navegacion" data-value="contact" href="#Contact">Contact</a></li>
           </ul>
-          <div class="idiomas">
-            <img src="./icon/es.svg" alt="español" />
-            <img src="./icon/us.svg" alt="ingles" />
 
-            <!-- <iconify-icon
-              class="icon"
-              icon="vscode-icons:file-type-typescript-official"
-            ></iconify-icon>
-            <iconify-icon icon="vscode-icons:file-type-python"></iconify-icon> -->
+          <div id="flags" class="flags">
+
+            <div class="flags-item" data-language="es">
+              <img src="./icon/es.svg" alt="español" />
+            </div>
+
+            <div class="flags-item" data-language="en">
+              <img src="./icon/us.svg" alt="ingles" />
+            </div>
+
           </div>
+
         </nav>
       </header>
 
       <!-- CV -->
       <main class="main">
         <div class="info-content">
-          <h1 id="Home">Hi, I'm <span>Sebastian</span> Mena</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perspiciatis mollitia voluptates eius sed dolor culpa dicta sit
-            praesentium nulla? Ipsa atque dolor deleniti alias labore doloremque
-            aliquid numquam. Id, sunt.
+          <h1 id="Home" data-section="profile" data-value="title">Hi, I'm <span>Sebastian</span> Mena</h1>
+          <p data-section="profile" data-value="description">
+            Ponlo fácil expresando qué tipo de trabajo estás buscando o indicando a qué tipo de roles te gustaría aplicar. O si aceptas encargos como freelance. En cualquier caso, pon de forma visible cómo pueden contactarte 
           </p>
-          <a download="" href="#"><button class="btn">Download CV</button></a>
+          <a download="" href="#"><button class="btn" data-section="profile" data-value="accion">Download CV</button></a>
         </div>
         <img src="./img/Ellipse 2@2x.png" alt="sebastian mena" />
       </main>
@@ -63,20 +64,13 @@
       <div class="about">
         <div class="about-info">
           <div class="center-about">
-            <h2 id="AboutMe" class="bor">About Me</h2>
+            <h2 id="AboutMe" class="bor" data-section="informacion" data-value="title">About Me</h2>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
-            similique, obcaecati adipisci omnis culpa nisi cupiditate
-            repudiandae a illo, sunt doloribus voluptatem natus consequatur
-            dolorum rem. Beatae, eum possimus.
+          <p data-section="informacion" data-value="description">
+            Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres. <br><br>
+            Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
-            similique, obcaecati adipisci omnis culpa nisi cupiditate
-            repudiandae a illo, sunt doloribus voluptatem natus consequatur
-            dolorum rem. Beatae, eum possimus.
-          </p>
+        
         </div>
       </div>
     </div>
@@ -84,13 +78,13 @@
     <!-- SKILLS -->
 
     <div class="skill">
-      <h2 id="Skill" class="bor">Skills</h2>
+      <h2 id="Skill" class="bor" data-section="skills" data-value="title">Skills</h2>
     </div>
 
     <div class="container-skill">
       <div class="tecnologies-tool">
         <div class="center-tecno">
-          <h2 id="Tecnologies" class="bor" style="color: #fff; font-size: 2em">
+          <h2 id="Tecnologies" class="bor" data-section="skills" data-value="tecnologie" style="color: #fff; font-size: 2em">
             <a href="">Tecnologies</a>
           </h2>
         </div>
@@ -154,7 +148,7 @@
 
       <div class="tecnologies-tool">
         <div class="center-h2">
-          <h2 id="Tools" class="bor" style="color: #fff; font-size: 2em">
+          <h2 id="Tools" class="bor" data-section="skills" data-value="herramienta" style="color: #fff; font-size: 2em">
             Tools
           </h2>
         </div>
@@ -206,7 +200,7 @@
     <div class="project">
       <div class="container-project">
         <div class="portafolio">
-          <h2 id="Project" class="bor" style="color: #fff; font-size: 2em">
+          <h2 id="Project" class="bor" data-section="project" data-value="title" style="color: #fff; font-size: 2em">
             Projects
           </h2>
         </div>
@@ -286,7 +280,7 @@
 
     <div class="contact-section">
       <div class="contact">
-        <h2 id="Contact" class="bor" style="color: #fff; font-size: 2em">
+        <h2 id="Contact" class="bor" data-section="contacto" data-value="title" style="color: #fff; font-size: 2em">
           Contact Me
         </h2>
       </div>
@@ -296,8 +290,8 @@
           <form action="" class="form">
             <input type="text" placeholder="Name" />
             <input type="text" placeholder="Email" />
-            <textarea placeholder="Place You Message"></textarea>
-            <button type="submit" class="btn-submit">Send Message</button>
+            <textarea placeholder="Write Your Message"></textarea>
+            <button type="submit" class="btn-submit" data-section="contacto" data-value="boton">Send Message</button>
           </form>
         </div>
       </div>
@@ -306,7 +300,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-container">
-        <h5>Full Stack Web Development</h5>
+        <h5 data-section="footer" data-value="title">Full Stack Developer</h5>
       </div>
       <div class="sotial">
         <a href="https://www.instagram.com/sebastianmh12" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -319,5 +313,6 @@
         ></a>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

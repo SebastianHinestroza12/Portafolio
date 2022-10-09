@@ -1,0 +1,37 @@
+{
+  "navegacion": {
+    "home": "Inicio",
+    "about": "Sobre Mi",
+    "skill": "Habilidades",
+    "project": "Proyectos",
+    "contact": "Contacto"
+  },
+  "profile": {
+    "title": "Hola, Soy <span>Sebastian</span> Mena",
+    "description": "Ponlo fácil expresando qué tipo de trabajo estás buscando o indicando a qué tipo de roles te gustaría aplicar. O si aceptas encargos como freelance. En cualquier caso, pon de forma visible cómo pueden contactarte ",
+    "accion": "Descargar CV"
+  },
+
+  "informacion": {
+    "title": "Sobre Mi",
+    "description": "Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres. <br><br> Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres."
+  },
+
+  "skills": {
+    "title": "Habilidades",
+    "tecnologie": "Tecnologias",
+    "herramienta": "Herramientas"
+  },
+
+  "project": {
+    "title": "Proyectos"
+  },
+
+  "contacto": {
+    "title": "Contactame",
+    "boton": "Enviar Mensaje"
+  },
+  "footer": {
+    "title": "Desarrollador Full Stack"
+  }
+}

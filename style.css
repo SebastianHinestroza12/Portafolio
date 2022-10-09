@@ -15,14 +15,20 @@ body {
 
 /* IDIOMA */
 
-.idiomas {
+.flags {
   display: flex;
   /* border: 1px solid #fff; */
-  margin-right: 70px;
+  justify-content: center;
+  width: 75px;
+  align-items: center;
+  margin-right: 200px;
 }
-.idiomas img {
+
+.flags img {
   width: 2.5rem;
   padding: 0.3125rem;
+  cursor: pointer;
+  display: block;
   /* border: 1px solid #fff; */
 }
 
@@ -406,7 +412,7 @@ span {
 
 #Tools {
   border: 1px solid orange;
-  width: 25%;
+  width: 70%;
   margin-top: 15px;
 }
 .tools {

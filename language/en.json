@@ -1,0 +1,35 @@
+{
+  "navegacion": {
+    "home": "Home",
+    "about": "About Me",
+    "skill": "Skill",
+    "project": "Projects",
+    "contact": "Contact"
+  },
+
+  "profile": {
+    "title": "Hi I'm <span>Sebastian</span> Mena",
+    "description": "Make it easy by expressing what type of job you are looking for or indicating what type of roles you would like to apply for. Or if you accept commissions as a freelance. In any case, put in a visible way how they can contact you ",
+    "accion": "Download CV"
+  },
+
+  "informacion": {
+    "title": "About Me",
+    "description": "As I was saying in previous paragraphs, in companies they seek to fill vacancies, but this implies adding new people to the work group... so above all they will also want to know how you are. <br><br> As I was saying in previous paragraphs, in companies They seek to fill vacancies, but this implies adding new people to the work group... so above all they will also want to know how you are."
+  },
+  "skills": {
+    "title": "Skills",
+    "tecnologie": "Tecnologies",
+    "herramienta": "Tools"
+  },
+  "project": {
+    "title": "Projects"
+  },
+  "contacto": {
+    "title": "Contact Me",
+    "boton": "Send Message"
+  },
+  "footer": {
+    "title": "Full Stack Developer"
+  }
+}
