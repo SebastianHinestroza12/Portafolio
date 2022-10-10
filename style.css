@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  background-color: black;
+  /* background-color: black; */
   /* text-align: center; */
 }
 
@@ -45,16 +45,13 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  /* background-color: #191c32; */
-  /* background-color: black; */
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .brand {
   margin-top: -7px;
 }
 .brand span {
-  /* color: aqua; */
   background: linear-gradient(yellow, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,8 +63,8 @@ body {
   padding: 2em;
 }
 
-.menu a {
-  color: white;
+.menu li a {
+  color: black;
   text-decoration: none;
   padding: 0.625rem 1.25rem;
   transition: ease-in 0.3s;
@@ -86,7 +83,7 @@ body {
 
 .menu a:hover {
   background: linear-gradient(yellow, red);
-  color: #ffffff;
+  color: black;
   border-radius: 0.75rem;
 }
 
@@ -102,12 +99,16 @@ body {
   margin-right: 11px;
 }
 
+.main p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   font-size: 3em;
 }
 
 span {
-  /* color: aqua; */
   background: linear-gradient(yellow, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -122,7 +123,8 @@ span {
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: black;
+  color: white;
   box-shadow: none;
 }
 
@@ -161,14 +163,15 @@ span {
 }
 .about-info h2 {
   font-size: 2em;
-  color: #fff;
+  color: white;
   border: 1px solid orange;
   text-align: center;
   width: 36%;
+  background-color: #191c32;
 }
 .about-info p {
-  margin-top: 1.45rem;
-  color: #fff;
+  margin-top: 4rem;
+  color: black;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -186,7 +189,7 @@ span {
   margin: 30px 0 50px 0;
 }
 .project p {
-  color: #fff;
+  color: white;
   text-align: center;
 }
 
@@ -283,14 +286,14 @@ span {
   margin-bottom: 1em;
   background: none;
   border: none;
-  border-bottom: 1px solid #eee;
-  color: #fff;
+  border-bottom: 1px solid black;
+  color: black;
 }
 
 .form textarea {
   height: 9.6875rem;
   background: none;
-  color: #fff;
+  color: black;
   padding: 1.5em;
   /* border: 1px solid #eee; */
 }
@@ -304,11 +307,12 @@ span {
   background-color: orange;
   border-radius: 0.9375rem;
   margin-bottom: 2.25rem;
-  color: #fff;
+  color: black;
 }
 
 .btn-submit:hover {
-  background-color: #fff;
+  background-color: black;
+  color: white;
 }
 
 .footer {
@@ -331,8 +335,9 @@ span {
   cursor: pointer;
 }
 .sotial i:hover {
-  color: #fff;
+  color: black;
 }
+
 .sotial {
   display: flex;
   justify-content: space-around;
@@ -342,101 +347,12 @@ span {
 
 /* SKILLS */
 
-.skill {
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid #ccc; */
-  margin-bottom: 60px;
-}
-
-.skill h2 {
-  color: #fff;
-  font-size: 2em;
-  border: 1px solid orange;
-  padding: 7px;
-}
-
-.container-skill {
-  /* border: 1px solid #ccc; */
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.container-skill a {
-  text-decoration: none;
-  color: #fff;
-}
-/* .lenguajes {
-  border: 1px solid #ccc;
-  height: 20rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-} */
 #Tecnologies {
   border: 1px solid orange;
   width: 70%;
   margin-top: 1rem;
 }
 .center-tecno {
-  display: flex;
-  justify-content: center;
-}
-
-.tecnologies-tool {
-  margin: 60px;
-}
-.lenguajes {
-  /* border: 1px solid #ccc; */
-  height: 20rem;
-  display: grid;
-  grid-template-columns: repeat(4, 0fr);
-  justify-content: center;
-  align-items: center;
-  margin: 30px auto 30px auto;
-}
-
-.lenguajes iconify-icon {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.lenguajes iconify-icon:hover {
-  background-color: orange;
-  border-radius: 1.5125rem;
-  transition: 0.5s;
-  /* transform: translateX(10px) rotate(360deg) translateY(5px); */
-}
-
-#Tools {
-  border: 1px solid orange;
-  width: 70%;
-  margin-top: 15px;
-}
-.tools {
-  /* border: 1px solid #ccc; */
-  height: 20rem;
-  display: grid;
-  grid-template-columns: repeat(4, 0fr);
-  justify-content: center;
-  align-items: center;
-  margin: 30px auto 30px auto;
-}
-
-.tools iconify-icon {
-  padding: 10px;
-  cursor: pointer;
-}
-.tools iconify-icon:hover {
-  background-color: orange;
-  border-radius: 1.5125rem;
-  transition: 0.5s;
-  /* transform: translateX(10px) rotate(360deg) translateY(5px); */
-}
-
-.center-h2 {
   display: flex;
   justify-content: center;
 }
@@ -463,24 +379,25 @@ span {
 
 .kill {
   display: grid;
-  grid-template-columns: repeat(4, 0fr);
+  grid-template-columns: repeat(3, 0fr);
   justify-content: center;
   /* border: 1px solid #ccc; */
   width: 80%;
 }
 
 .icon {
-  border: 1px solid white;
+  /* border: 1px solid black; */
   display: flex;
   padding: 9px;
   margin: 10px;
   width: 18vw;
   border-radius: 12px;
   box-shadow: rgba(22, 22, 21, 0.966) 5px 5px;
+  background-color: #191c32;
 }
 
 .kill .icon p {
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   margin-top: 4px;
@@ -502,3 +419,5 @@ span {
   align-items: center;
   margin-bottom: 50px;
 }
+
+/* DARKMODE */
