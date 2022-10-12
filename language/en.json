@@ -9,6 +9,7 @@
 
   "profile": {
     "title": "Hi I'm <span>Sebastian</span> Mena",
+    "develope": "Junior Full Stack Developer",
     "description": "Make it easy by expressing what type of job you are looking for or indicating what type of roles you would like to apply for. Or if you accept commissions as a freelance. In any case, put in a visible way how they can contact you ",
     "accion": "Download CV"
   },
@@ -30,6 +31,6 @@
     "boton": "Send Message"
   },
   "footer": {
-    "title": "Full Stack Developer"
+    "title": "© Sebastian Mena, 2022 all rights reserved."
   }
 }

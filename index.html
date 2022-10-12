@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./icon/logo.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
-  <body>
+  <body >
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     
 
@@ -21,14 +22,14 @@
       <header>
         <nav class="navbar">
           <div class="brand">
-            <h2> <span><</span> S<span>M</span> <span>/></span> </h2>
+            <h2> <span><</span>S<span>M</span><span>/></span> </h2>
           </div>
           <ul class="menu">
-            <li ><b><a data-section="navegacion" data-value="home" class="active" href="#Home">Home</a></b></li>
-            <li><b><a data-section="navegacion" data-value="about" href="#AboutMe">About Me</a></b></li>
-            <li><b><a data-section="navegacion" data-value="skill" href="#Tecnologies">Tecnologies</a></b></li>
-            <li><b><a data-section="navegacion" data-value="project" href="#project">projects</a></b></li>
-            <li><b><a data-section="navegacion" data-value="contact" href="#Contact">Contact</a></b></li>
+            <li ><a data-section="navegacion" data-value="home" class="active" href="#Home">Home</a></li>
+            <li><a data-section="navegacion" data-value="about" href="#AboutMe">About Me</a></li>
+            <li><a data-section="navegacion" data-value="skill" href="#Tecnologies">Tecnologies</a></li>
+            <li><a data-section="navegacion" data-value="project" href="#project">Projects</a></li>
+            <li><a data-section="navegacion" data-value="contact" href="#Contact">Contact</a></li>
           </ul>
 
           <div id="flags" class="flags">
@@ -42,19 +43,24 @@
             </div>
 
           </div>
+
+          <div class="moon">
+            <button id="bdark"><iconify-icon icon="clarity:moon-solid" style="color: #252850;" width="40" height="40"></iconify-icon></button>
+          </div>
           
         </nav>
+        <!-- <hr color="white"> -->
       </header>
 
       <!-- CV -->
       <main class="main">
         <div class="info-content">
           <h1 id="Home" data-section="profile" data-value="title">Hi, I'm <span>Sebastian</span> Mena</h1>
-          <b>
+          <strong data-section="profile" data-value="develope" class="junior">Junior Full Stack Developer</strong>
           <p data-section="profile" data-value="description">
             ponlo fácil expresando qué tipo de trabajo estás buscando o indicando a qué tipo de roles te gustaría aplicar. O si aceptas encargos como freelance. En cualquier caso, pon de forma visible cómo pueden contactarte 
           </p>
-          </b>
+          
           <a download="" href="#"><button class="btn" data-section="profile" data-value="accion">Download CV</button></a>
         </div>
         <img src="./img/Ellipse 2@2x.png" alt="sebastian mena" />
@@ -68,12 +74,11 @@
           <div class="center-about">
             <h2 id="AboutMe" class="bor" data-section="informacion" data-value="title">About Me</h2>
           </div>
-          <b>
+
           <p data-section="informacion" data-value="description">
             Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres. <br><br>
             Como te decía en párrafos anteriores, en las empresas buscan cubrir vacantes, pero esto les implica añadir personas nuevas al grupo de trabajo… así que por encima de todo también van a querer saber cómo eres.
           </p>
-          </b>
         
         </div>
       </div>
@@ -83,7 +88,7 @@
 
       <div class="cen">
         <div class="center-tecno" style="width: 30%">
-            <h2 id="Tecnologies" class="bor" data-section="skills" data-value="tecnologie" style="color: white; font-size: 2em; background-color: #191c32;">
+            <h2 id="Tecnologies" class="bor" data-section="skills" data-value="tecnologie" style="color: white; font-size: 2em; background-color: black;">
               Tecnologies
             </h2>
           </div>
@@ -97,151 +102,115 @@
         <div class="icon">
           <iconify-icon
             icon="logos:javascript"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>javascript</p>
           </b>
-          <span>
-          <b>
-            <p >70%</p>
-          </b>
-          </span>
         </div>
         
 
         <div class="icon">
           <iconify-icon
             icon="vscode-icons:file-type-typescript-official"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>typescript</p>
           </b>
-          <span>
-          <b>
-          <p>50%</p>
-          </b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="vscode-icons:file-type-node"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>node js</p>
           </b>
-          <span>
-          <b><p>70%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:php"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
 
           <b> <p>php</p></b>
-          <span>
-          <b><p>40%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="simple-icons:express"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
+            style="color:white"
           ></iconify-icon>
           <b><p>Express</p></b>
-          <span>
-          <b><p>70%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:react"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>react</p></b>
-          <span>
-          <b><p>70%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:redux"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>redux</p></b>
-          <span>
-          <b><p>70%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:sequelize"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>sequelize</p></b>
-          <span>
-          <b><p>60%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:postgresql"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>postgresql</p></b>
-          <span>
-          <b><p>60%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="vscode-icons:file-type-html"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>html</p></b>
-          <span>
-          <b><p>90%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="vscode-icons:file-type-css"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>css</p></b>
-          <span>
-            <b><p>60%</p></b>
-          </span>
         </div>
 
       </div>
@@ -252,7 +221,7 @@
 
     <div class="cen">
         <div class="center-tecno" style="width: 30%">
-            <h2 id="Tecnologies" class="bor" data-section="skills" data-value="herramienta" style="color: white; font-size: 2em; background-color: #191c32;">
+            <h2 id="Tecnologies" class="bor" data-section="skills" data-value="herramienta" style="color: white; font-size: 2em; background-color: black;">
               Tools
             </h2>
           </div>
@@ -266,17 +235,12 @@
           <iconify-icon
             style="color: red"
             icon="bi:git"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>git</p>
           </b>
-          <span>
-          <b>
-            <p >90%</p>
-          </b>
-          </span>
         </div>
         
 
@@ -284,87 +248,65 @@
           <iconify-icon
             style="color: #9747ff"
             icon="foundation:social-github"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>github</p>
           </b>
-          <span>
-          <b>
-          <p>90%</p>
-          </b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:figma"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
           <b>
           <p>figma</p>
           </b>
-          <span>
-          <b><p>70%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:postman-icon"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
           ></iconify-icon>
 
           <b> <p>postman</p></b>
-          <span>
-          <b><p>95%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:visual-studio-code"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>visual code</p></b>
-          <span>
-          <b><p>95%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:xampp"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>xampp</p></b>
-          <span>
-          <b><p>90%</p></b>
-          </span>
         </div>
 
         <div class="icon">
           <iconify-icon
             icon="logos:bootstrap"
-            width="35"
-            height="35"
+            width="40"
+            height="40"
             style="color: #fff"
           ></iconify-icon>
           <b><p>bootstrap</p></b>
-          <span>
-          <b><p>50%</p></b>
-          </span>
         </div>
-
       </div>
-
     </div>
 
 
@@ -373,15 +315,15 @@
     <div class="project">
       <div class="container-project">
         <div class="portafolio">
-          <h2 id="project" class="bor" data-section="project" data-value="title" style="color: white; font-size: 2em; border: 1px solid orange; background-color: #191c32;">
-            projects
+          <h2 id="project" class="bor" data-section="project" data-value="title" style="color: white; font-size: 2em; border: 1px solid orange; background-color: black;">
+            Projects
           </h2>
         </div>
       </div>
 
       <div class="container">
         <div class="card">
-          <div class="card_img"></div>
+          <img class="card_img" src="./img/img.png" alt="image">
 
           <div class="card_title">
             <p>
@@ -404,8 +346,7 @@
         </div>
 
         <div class="card">
-          <div class="card_img"></div>
-
+          <img class="card_img" src="./img/img.png" alt="image">
           <div class="card_title">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -426,8 +367,7 @@
         </div>
 
         <div class="card">
-          <div class="card_img"></div>
-
+          <img class="card_img" src="./img/img.png" alt="image">
           <div class="card_title">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -453,7 +393,7 @@
 
     <div class="contact-section">
       <div class="contact">
-        <h2 id="Contact" class="bor" data-section="contacto" data-value="title" style="color: white; font-size: 2em; background-color: #191c32;">
+        <h2 id="Contact" class="bor" data-section="contacto" data-value="title" style="color: white; font-size: 2em; background-color: black;">
           Contact Me
         </h2>
       </div>
@@ -472,9 +412,6 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="footer-container">
-        <h5 data-section="footer" data-value="title">Full Stack Developer</h5>
-      </div>
       <div class="sotial">
         <a href="https://www.instagram.com/sebastianmh12" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://api.whatsapp.com/send?phone=573232883290&text=Hola%20Sebastian,%20Me%20Intereso%20Tu%20perfil." target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
@@ -485,6 +422,7 @@
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
+      <p data-section="footer" data-value="title" style="font-size:18px">© Sebastian Mena, 2022 all rights reserved.</p>
     </footer>
     <script src="index.js"></script>
   </body>

@@ -30,4 +30,44 @@ flagsElement.addEventListener('click', (e) => {
 
 //! DARKMODE
 
+const bdark = document.getElementById('bdark');
+const body = document.querySelector('body');
+const load = () => {
+  const darkMode = localStorage.getItem('darkmode');
+
+  if (!darkMode) {
+    store('false');
+  }
+  else if (darkMode == 'true') {
+    body.classList.add('darkmode');
+  }
+}
+
+const store = (value) => {
+  localStorage.setItem('darkmode', value);
+}
+
+load();
+
+bdark.addEventListener('click', (e) => {
+  body.classList.toggle('darkmode')
+  store(body.classList.contains('darkmode'));
+});
+
+
+
+// SCROLLREVEAL
+
+ScrollReveal().reveal('.info-content ', { duration: 3000, distance: '180px', origin: 'left' });
+
+// ScrollReveal().reveal('.about-info ', { duration: 3000, distance: '180px', origin: 'left' });
+
+// ScrollReveal().reveal('.cen ', { duration: 3000, distance: '180px', origin: 'left', scale: 0.85 });
+
+// ScrollReveal().reveal('.container-skill ', { duration: 3000, distance: '400px', origin: 'left', scale: 0.85 });
+
+// ScrollReveal().reveal('.project ', { duration: 3000, distance: '400px', origin: 'left', scale: 0.85 });
+
+// ScrollReveal().reveal('.contact-section', { duration: 3000, distance: '400px', origin: 'left', scale: 0.85 });
+
 
