@@ -312,6 +312,7 @@ span {
   color: black;
   margin-bottom: 1em;
   text-align: center;
+  /* border: 1px solid black; */
 }
 
 /* PROYECT */
@@ -343,6 +344,7 @@ span {
 }
 
 .project .container {
+  /* border: 1px solid #ccc; */
   width: 80vw;
   height: 80vh;
   margin: 0 auto;
@@ -355,6 +357,7 @@ span {
   background-color: black;
   height: 21rem;
   margin: 1em;
+  /* border: 1px solid white; */
 }
 
 .card_img {
@@ -494,7 +497,7 @@ span {
 
 #Tecnologies {
   border: 1px solid orange;
-  width: 70%;
+  width: 80%;
   margin-top: 1rem;
 }
 .center-tecno {

@@ -71,3 +71,26 @@ ScrollReveal().reveal('.info-content ', { duration: 3000, distance: '180px', ori
 // ScrollReveal().reveal('.contact-section', { duration: 3000, distance: '400px', origin: 'left', scale: 0.85 });
 
 
+
+// RESPONSIVE
+
+let menu = document.getElementById('menu');
+let menuOpen = document.getElementById('open-menu');
+let menuClose = document.getElementById('close-menu');
+
+
+const toggle = () => {
+  menu.classList.toggle('show-menu');
+  if (menu.classList.contains('show-menu')) {
+    menuOpen.style.display = 'none';
+    menuClose.style.display = 'block';
+  } else {
+    menuOpen.style.display = 'block';
+    menuClose.style.display = 'none';
+
+  }
+}
+
+menuOpen.addEventListener('click', toggle);
+menuClose.addEventListener('click', toggle);
+

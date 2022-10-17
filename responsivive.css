@@ -11,6 +11,11 @@
     transform: translateX(-110%);
     transition: all 0.5s ease-in-out;
   }
+  .show-menu {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
+
   .menu li {
     margin: 1em;
   }
@@ -20,6 +25,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #close-menu {
+    display: none;
   }
 
   .toggle-menu i {
@@ -34,12 +43,12 @@
     justify-content: center;
     align-items: center;
   }
-  .response-oculte {
+  .oculte-p {
     display: none;
   }
   .main img {
     margin-left: -90px;
-    width: min(70%, 21.875rem);
+    width: min(55%, 21.875rem);
   }
   .info-content {
     display: flex;
@@ -61,5 +70,65 @@
   }
   .btn {
     margin-top: 15px;
+  }
+  .about-container {
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-info h2 {
+    font-size: 1.8rem;
+    width: 60%;
+  }
+
+  .about-info p {
+    color: black;
+    text-align: center;
+    width: 80vw;
+  }
+  .center-tecno {
+    width: 60vw !important;
+    /* margin-top: -1rem; */
+  }
+  .container-skill {
+    /* border: 1px solid #ccc; */
+    width: 70%;
+    margin: 0 auto 70px auto;
+  }
+
+  .icon {
+    /* border: 1px solid white; */
+    width: 12vw;
+    border-radius: 12px;
+    box-shadow: rgba(22, 22, 21, 0.966) 5px 5px;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .kill .icon p {
+    display: none;
+  }
+
+  .container-project .portafolio {
+    /* border: 1px solid #ccc; */
+    width: 60%;
+    margin: -100px 0 130px 0;
+  }
+
+  .container {
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px !important;
+  }
+
+  .contact-section .contact h2 {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    width: 50% !important;
   }
 }
