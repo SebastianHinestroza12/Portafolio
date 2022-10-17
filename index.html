@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivive.css" />
     <link rel="shortcut icon" href="./icon/logo.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -24,7 +25,7 @@
           <div class="brand">
             <h2> <span><</span>S<span>M</span><span>/></span> </h2>
           </div>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li ><a data-section="navegacion" data-value="home" class="active" href="#Home">Home</a></li>
             <li><a data-section="navegacion" data-value="about" href="#AboutMe">About Me</a></li>
             <li><a data-section="navegacion" data-value="skill" href="#Tecnologies">Tecnologies</a></li>
@@ -33,7 +34,6 @@
           </ul>
 
           <div id="flags" class="flags">
-
             <div class="flags-item" data-language="es">
               <img src="./icon/es.svg" alt="español" />
             </div>
@@ -43,9 +43,13 @@
             </div>
 
           </div>
-
           <div class="moon">
             <button id="bdark"><iconify-icon icon="clarity:moon-solid" style="color: #252850;" width="40" height="40"></iconify-icon></button>
+          </div>
+
+          <div class="toggle-menu">
+            <i class="fa-solid fa-bars" id="open-menu"></i>
+            <i class="fa-solid fa-xmark" id="close-menu"></i>
           </div>
           
         </nav>
@@ -57,7 +61,7 @@
         <div class="info-content">
           <h1 id="Home" data-section="profile" data-value="title">Hi, I'm <span>Sebastian</span> Mena</h1>
           <strong data-section="profile" data-value="develope" class="junior">Junior Full Stack Developer</strong>
-          <p data-section="profile" data-value="description">
+          <p class="response-oculte" data-section="profile" data-value="description">
             ponlo fácil expresando qué tipo de trabajo estás buscando o indicando a qué tipo de roles te gustaría aplicar. O si aceptas encargos como freelance. En cualquier caso, pon de forma visible cómo pueden contactarte 
           </p>
           

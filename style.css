@@ -6,7 +6,7 @@
 
 body {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: monospace;
+  font-family: "Times New Roman", Times, serif;
   overflow-x: hidden;
   transition: all 0.5s;
   font-size: 16px;
@@ -93,6 +93,10 @@ body.darkmode {
   color: black;
 }
 /* DARKMODE */
+
+.toggle-menu {
+  display: none;
+}
 
 .moon {
   /* border: 1px solid black; */
@@ -231,7 +235,7 @@ body.darkmode {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: clamp(4vw, 1.5em, 3em);
 }
 
 span {
