@@ -61,10 +61,6 @@
         <div class="info-content">
           <h1 id="Home" data-section="profile" data-value="title">Hi, I'm <span>Sebastian</span> Mena</h1>
           <strong data-section="profile" data-value="develope" class="junior">Junior Full Stack Developer</strong>
-          <p class="oculte-p" data-section="profile" data-value="description">
-            ponlo fácil expresando qué tipo de trabajo estás buscando o indicando a qué tipo de roles te gustaría aplicar. O si aceptas encargos como freelance. En cualquier caso, pon de forma visible cómo pueden contactarte 
-          </p>
-          
           <a download="" href="#"><button class="btn" data-section="profile" data-value="accion">Download CV</button></a>
         </div>
         <img src="./img/Ellipse 2@2x.png" alt="sebastian mena" />
@@ -310,6 +306,11 @@
           ></iconify-icon>
           <b><p>bootstrap</p></b>
         </div>
+
+        <div class="icon">
+          <iconify-icon icon="logos:trello" width="40" height="40"></iconify-icon>
+          <b><p>Trello</p></b>
+        </div>
       </div>
     </div>
 
@@ -405,11 +406,16 @@
 
       <div class="container-cotact">
         <div class="contact-form">
-          <form action="" class="form">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-            <textarea placeholder="Write Your Message"></textarea>
+          <form action="https://formsubmit.co/menas7527@gmail.com" method="POST" class="form">
+            <input type="text" placeholder="Name" name="name" />
+            <input type="email" placeholder="Email" name="email" />
+            <textarea placeholder="Write Your Message" name="comments"></textarea>
             <button type="submit" class="btn-submit" data-section="contacto" data-value="boton">Send Message</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="¡Nuevo envío Sebastian!">
+            <input type="hidden" name="_cc" value="menasebastian1356@americana.edu.co">
+            <input type="hidden" name="_template" value="table">
           </form>
         </div>
       </div>
