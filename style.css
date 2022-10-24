@@ -328,7 +328,7 @@ span {
   width: 100vw;
   padding: 3em;
   /* border: 1px solid #fff; */
-  margin: 30px 0 30px 0;
+  /* margin: 30px 0 30px 0; */
   justify-content: center;
   align-items: center;
 }
@@ -418,7 +418,8 @@ span {
 .contact-form {
   /* border: 1px solid #ccc; */
   display: flex;
-  place-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
@@ -448,7 +449,7 @@ span {
 .btn-submit {
   text-transform: uppercase;
   padding: 0.725rem 1.25rem;
-  margin: 1em;
+  margin-top: 2rem;
   margin-bottom: 40px;
   color: black;
   min-width: 130px;

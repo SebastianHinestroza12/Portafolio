@@ -100,7 +100,7 @@
 
   .icon {
     /* border: 1px solid white; */
-    width: 12vw;
+    width: 17vw;
     border-radius: 12px;
     box-shadow: rgba(22, 22, 21, 0.966) 5px 5px;
     background-color: black;
@@ -130,5 +130,38 @@
     border: 1px solid #ccc;
     margin-top: 50px;
     width: 50% !important;
+  }
+
+  .project {
+    width: 100vw;
+    /* padding: 3em; */
+    /* border: 1px solid #fff; */
+    margin: 30px 0 50px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    /* border: 1px solid white; */
+    margin-left: 70px;
+  }
+  .project .portafolio {
+    margin-top: 20px;
+  }
+
+  .contact-form {
+    margin-top: 50px;
+  }
+
+  .form input {
+    padding: 0.625rem 1.25rem;
+    width: 40vw;
+  }
+
+  .form textarea {
+    height: 9.6875rem;
+    width: 40vw;
+  }
+  .btn-submit {
+    width: 40vw;
   }
 }
