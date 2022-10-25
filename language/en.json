@@ -15,7 +15,7 @@
 
   "informacion": {
     "title": "About Me",
-    "description": "As I was saying in previous paragraphs, in companies they seek to fill vacancies, but this implies adding new people to the work group... so above all they will also want to know how you are. <br><br> As I was saying in previous paragraphs, in companies They seek to fill vacancies, but this implies adding new people to the work group... so above all they will also want to know how you are."
+    "description": "I am a proactive person, excellent teammate, organized and responsible. I really enjoy learning new things, so my goal is a challenging and dynamic position where I can gain new knowledge, develop my skills and gain work experience."
   },
   "skills": {
     "title": "Skills",
@@ -23,7 +23,12 @@
     "herramienta": "Tools"
   },
   "project": {
-    "title": "Projects"
+    "title": "Projects",
+    "project1": "An electronic store, about sports products from the QATAR World Cup. Beds, balls, bonites and pants are offered. Currently this project is still under development together with 7 partners.",
+
+    "project2": "Dog application using React, Redux, pure CSS for the frontend and Backend developed in Node.js with Express. Database in PostgreSQL and Sequelize. Among the features you can search for a dog, filtering, ordering and creating a new dog.",
+
+    "project3": "A task application developed in React, where you can add, complete, delete and filter a task, having data persistence by the localStorage implementation."
   },
   "contacto": {
     "title": "Contact Me",
