@@ -25,7 +25,7 @@
 
   "project": {
     "title": "Proyectos",
-    "project1": "Una tienda electronica, sobre productos deportivos del mundial de QATAR. Se ofrecen camitas, balones, bonites y pantalonestas. Altualmente este proyecto sigue en desarrollo en conjunto con 7 compañeros.",
+    "project1": "Una tienda electronica, sobre productos deportivos del mundial de Qatar 2022. Donde se le ofrecen al cliente indumentarias y balones que pueden comprar en nuestra tienda.",
 
     "project2": "Aplicacion de perros utilizando para el frontend React, Redux, CSS puro y Backend desarrollado en Node.js con Express. Base de datos en PostgreSQL y Sequelize. Entre las funcionalidades se puede buscar un perro, filtrados, ordenamientos y creacion de un nuevo perro.",
 

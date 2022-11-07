@@ -365,6 +365,10 @@ span {
   margin: 1em;
   /* border: 1px solid white; */
 }
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 
 .card_img {
   width: 100%;

@@ -24,7 +24,7 @@
   },
   "project": {
     "title": "Projects",
-    "project1": "An electronic store, about sports products from the QATAR World Cup. Beds, balls, bonites and pants are offered. Currently this project is still under development together with 7 partners.",
+    "project1": "An electronic store, about sports products from the Qatar 2022 World Cup. Where the customer is offered clothing and balls that they can buy in our store.",
 
     "project2": "Dog application using React, Redux, pure CSS for the frontend and Backend developed in Node.js with Express. Database in PostgreSQL and Sequelize. Among the features you can search for a dog, filtering, ordering and creating a new dog.",
 
