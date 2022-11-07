@@ -6,7 +6,7 @@
 
 body {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Helvetica;
   overflow-x: hidden;
   transition: all 0.5s;
   font-size: 16px;
@@ -267,6 +267,7 @@ span {
   background-color: black;
   color: white;
   box-shadow: none;
+  transform: scale(1.1);
 }
 
 .main img {
@@ -474,6 +475,7 @@ span {
 .btn-submit:hover {
   background-color: black;
   color: white;
+  transform: scale(1.1);
 }
 
 /* footer */
